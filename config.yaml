@@ -29,7 +29,7 @@ params:
   contact: "obonhamcarter@allegheny.edu"
   description: "Website for the Junior Seminar to prepare for conducting research project."
   dateformat: "2 January, 2023"
-  favicon: "dunno.jpg"
+  favicon: "logo.png"
   feedlinks: true
   icon: "apple-touch-icon.png"
   image: "apple-touch-icon.jpg"
