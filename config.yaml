@@ -13,7 +13,7 @@ author:
   name: "Oliver Bonham-Carter"
   url: "https://oliverbonhamcarter.com"
   # avatar: "/dunno.jpg"
-googleAnalytics = "G-2S7Y04C26P"
+googleAnalytics : "G-2S7Y04C26P"
 
 outputFormats:
   SearchIndex:
