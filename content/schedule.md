@@ -25,6 +25,6 @@ Week | Topic |
 8 | Finding readers for our senior year. Which faculty members will be best for our project work? | |
 8 |  work; catch up time | |
 9 | Final Product: Putting all the above ideas to gether to tell a story of all parts of your project, from beginning to the completion. | |
-9 |  | |
+9 | work; catch up time | |
 
 
