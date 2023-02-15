@@ -2,7 +2,7 @@
 title: "Research Resources"
 ---
 
-![logo](fc1_300.png)
+![logo](/resources/images/fc1_300.png)
 
 <!-- add a line drop -->
 <center>

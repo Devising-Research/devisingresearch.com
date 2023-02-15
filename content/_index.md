@@ -30,9 +30,9 @@ Throughout the semester students will be exposed to famous dilemmas in technolog
 
 ## TextBooks
 
-* Deetjen, Thomas A.. Published: A Guide to Literature Review, Outlining, Experimenting, Visualization, Writing, Editing, and Peer Review for Your First Scientific Journal Article. Poland: Productive Academic Press, 2020. ISBN: 9781734493108
+* Deetjen, Thomas A.. _Published: A Guide to Literature Review, Outlining, Experimenting, Visualization, Writing, Editing, and Peer Review for Your First Scientific Journal Article_. Poland: Productive Academic Press, 2020. ISBN: 9781734493108
 
-* Dupre, L. (2000). BUGS in Writing: A Guide to Debugging Your Prose. United States: Addison-Wesley.
+* Dupre, L. (2000). _BUGS in Writing: A Guide to Debugging Your Prose_ United States: Addison-Wesley.
 
 * Evans, D., Zobel, J., Gruba, P. (2014). How to Write a Better Thesis. Germany: Springer International Publishing.
 
