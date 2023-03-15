@@ -3,6 +3,21 @@ title: "Preparation for Research"
 
 ---
 
+## Introduction
+
+This site represents a _class in a box_ that you are welcome to use to develop and /or apply to your own class of a similar theme.
+
+Here, you will find a wealth of objectives, notes, assignments, ideas and systems of structure which may help to strengthen your approach to pedagogy, for seemingly any level of teaching.
+
+These materials comprise a course that continues to be developed by [Oliver Bonham-Carter](https://www.oliverbonhamcarter.com/) at Allegheny College in Meadville, Pennsylvania, USA. 
+
+If you find these materials helpful, I invite you to use them to the benefit of your students and to enrich your class! 
+
+I look forward to hearing from you if you would like to get in-touch.
+
+* Oliver Bonham-Carter
+* obonhamcarter (a) allegheny (dot) edu
+
 # Welcome to Computer Science Research!
 
 Types of computer hardware and software are everywhere! Conducting research in computer science is a challenging and rewarding activity that leads to the production of hardware, software, and scientific insights that have the potential to positively influence the lives of many people.  As you learn more about research methods in computer science you will also enhance your ability to effectively write and speak about a wide range of topics in computer science. I ask that you bring your best effort and highest enthusiasm as you pursue research in computer science this semester.
