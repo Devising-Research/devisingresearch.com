@@ -1,6 +1,6 @@
 ---
 title: "Search"
-
+type: "search"
 ---
 
-{{< search >}}
+Use the search box above to find content on this site.

@@ -1,14 +1,16 @@
 ---
 title: "Devising Research"
 baseURL: "https://devisingresearch.com/"
-theme: "zen"
+theme: "hugo-book"
 languageCode: "en-GB"
 defaultContentLanguage: "en"
 pluralizelisttitles: false
 removePathAccents: true
-paginate: 10
-paginatePath: "page"
 rssLimit: 20
+
+pagination:
+  pagerSize: 10
+  path: "page"
 author:
   name: "Oliver Bonham-Carter"
   url: "https://oliverbonhamcarter.com"
@@ -30,6 +32,18 @@ params:
   contact: "obonhamcarter@allegheny.edu"
   description: "Website for the Junior Seminar to prepare for conducting research project."
   dateformat: "2 January, 2023"
+  
+  # Hugo Book theme specific parameters
+  BookTheme: "auto"
+  BookToC: true
+  BookSearch: true
+  BookRepo: "https://github.com/Devising-Research/devisingresearch.com"
+  BookEditPath: "edit/main"
+  BookDateFormat: "January 2, 2006"
+  BookMenuBundle: "/menu"
+  BookSection: "*"
+  
+  # Legacy params (keeping for compatibility)
   favicon: "logo.png"
   feedlinks: true
   icon: "apple-touch-icon.png"

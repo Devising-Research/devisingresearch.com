@@ -1,9 +1,7 @@
 ---
 title: "Preparation for Research"
-
+type: "docs"
 ---
-
-{{< search >}}
 
 ## Introduction
 

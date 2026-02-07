@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research Resources on Devising Research</title>
+    <link>http://localhost:1313/resources/</link>
+    <description>Recent content in Research Resources on Devising Research</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Resources</title>
+      <link>http://localhost:1313/resources/juniorseminar_resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/juniorseminar_resources/</guid>
+      <description>&lt;p&gt;Welcome to a resources page for Junior Seminar research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Software&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://posit.co/&#34;&gt;RStudio&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://cran.rstudio.com/&#34;&gt;R Programming Language&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.python.org/downloads/&#34;&gt;Python Programming Language&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://mac.github.com/&#34;&gt;Git for Mac&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://windows.github.com/&#34;&gt;Git for Windows&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://git-scm.com/&#34;&gt;Git for all platforms&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Tutorials&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLsYZRXov75ZHSwWiCk0-jd1RcTuu_-zmD&#34;&gt;Allegheny College Department of Computer Science tutorials&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV&#34;&gt;Coding Train&amp;rsquo;s Git and GitHub for Poets&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04&#34;&gt;Setting Up Git on Linux&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://swcarpentry.github.io/git-novice/02-setup/index.html&#34;&gt;Setting up Git&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/python/python-tutorial&#34;&gt;Getting Started with Python in VS Code&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://towardsthecloud.com/best-vscode-extensions-python&#34;&gt;11 Best VS Code extensions for Python (2022)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ssh.com/ssh/keygen/&#34;&gt;ssh keys&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=qEPjUGQFmzQ&amp;amp;list=PLsYZRXov75ZHSwWiCk0-jd1RcTuu_-zmD&#34;&gt;Luman&amp;rsquo;s ssh keys video tutorial&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Articles&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing Resources</title>
+      <link>http://localhost:1313/resources/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/writing/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/resources/images/writerinspace.png&#34; alt=&#34;writer logo&#34; /&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;how-can-i-write-better&#34;&gt;How can I write better?!&lt;a class=&#34;anchor&#34; href=&#34;#how-can-i-write-better&#34;&gt;#&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;When completing any assignment in research or in your classes, the quality of your writing is very important. Below are some resources that may help in your writing.&lt;/p&gt;&#xA;&lt;h4 id=&#34;online-resources&#34;&gt;Online Resources&lt;a class=&#34;anchor&#34; href=&#34;#online-resources&#34;&gt;#&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;Online guide to writing&lt;/strong&gt;: &lt;strong&gt;Maytum Center for Student Success&lt;/strong&gt;;Writing and Speaking Consultants at Allegheny College&amp;rsquo;s &lt;a href=&#34;https://sites.allegheny.edu/studentsuccess/writing-speech/&#34;&gt;Writing Center&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Online guide to writing&lt;/strong&gt;: Available from the University of &lt;a href=&#34;https://www.umgc.edu/current-students/learning-resources/writing-center/online-guide-to-writing/tutorial/chapter4/ch4-06#:~:text=Research%20resources%20are%20found%20in,sources%20found%20on%20the%20Internet.&#34;&gt;Maryland&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
