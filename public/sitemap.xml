@@ -6,19 +6,29 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/resources/finding-data/</loc>
+  </url><url>
+    <loc>http://localhost:1313/resources/getting-started/</loc>
+  </url><url>
     <loc>http://localhost:1313/policy/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
+    <loc>http://localhost:1313/resources/reading-literature/</loc>
+  </url><url>
     <loc>http://localhost:1313/resources/</loc>
   </url><url>
     <loc>http://localhost:1313/resources/juniorseminar_resources/</loc>
+  </url><url>
+    <loc>http://localhost:1313/resources/research-workflow/</loc>
   </url><url>
     <loc>http://localhost:1313/schedule/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/resources/working-with-ideas/</loc>
   </url><url>
     <loc>http://localhost:1313/resources/writing/</loc>
   </url>

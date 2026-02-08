@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Finding usable data for technical research# Data work is a major part of computer science research. This guide helps you locate and evaluate data quickly.
+Common data sources# Government and public agencies Research group releases and project websites Open repositories and data portals APIs and platform data exports What to check before using a dataset# License: can you use it for academic work? Format: CSV, JSON, SQL dump, or raw text? Documentation: is there a data dictionary? Coverage: does it match your time range and scope? Bias: who created it and what might be missing? Practical steps# Write 5 keywords about the data you need. Search for “dataset” plus each keyword. Check the data size and file format. Download a sample and inspect 20 rows. Record the source and citation details. If the data is not available# Create a small dataset through scraping, logs, or experiments. Use a related dataset and justify the substitution. Reframe the question to fit accessible data. Data hygiene checklist# The data is versioned and stored safely. You can reproduce how it was collected. You have a clear plan for cleaning and filtering. You are aware of privacy or ethics constraints. ">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/resources/finding-data/">
+  <meta property="og:site_name" content="Devising Research">
+  <meta property="og:title" content="Finding Data">
+  <meta property="og:description" content="Finding usable data for technical research# Data work is a major part of computer science research. This guide helps you locate and evaluate data quickly.
+Common data sources# Government and public agencies Research group releases and project websites Open repositories and data portals APIs and platform data exports What to check before using a dataset# License: can you use it for academic work? Format: CSV, JSON, SQL dump, or raw text? Documentation: is there a data dictionary? Coverage: does it match your time range and scope? Bias: who created it and what might be missing? Practical steps# Write 5 keywords about the data you need. Search for “dataset” plus each keyword. Check the data size and file format. Download a sample and inspect 20 rows. Record the source and citation details. If the data is not available# Create a small dataset through scraping, logs, or experiments. Use a related dataset and justify the substitution. Reframe the question to fit accessible data. Data hygiene checklist# The data is versioned and stored safely. You can reproduce how it was collected. You have a clear plan for cleaning and filtering. You are aware of privacy or ethics constraints.">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="resources">
+
+
+  <meta itemprop="name" content="Finding Data">
+  <meta itemprop="description" content="Finding usable data for technical research# Data work is a major part of computer science research. This guide helps you locate and evaluate data quickly.
+Common data sources# Government and public agencies Research group releases and project websites Open repositories and data portals APIs and platform data exports What to check before using a dataset# License: can you use it for academic work? Format: CSV, JSON, SQL dump, or raw text? Documentation: is there a data dictionary? Coverage: does it match your time range and scope? Bias: who created it and what might be missing? Practical steps# Write 5 keywords about the data you need. Search for “dataset” plus each keyword. Check the data size and file format. Download a sample and inspect 20 rows. Record the source and citation details. If the data is not available# Create a small dataset through scraping, logs, or experiments. Use a related dataset and justify the substitution. Reframe the question to fit accessible data. Data hygiene checklist# The data is versioned and stored safely. You can reproduce how it was collected. You have a clear plan for cleaning and filtering. You are aware of privacy or ethics constraints.">
+  <meta itemprop="wordCount" content="195">
+
+<title>Finding Data | Devising Research</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/resources/finding-data/">
+<link rel="stylesheet" href="/book.min.73fe0d636c3bafd212458fddcf5d8fe8897b63b91d4ab9fee7b0b723ca453ebf.css" integrity="sha256-c/4NY2w7r9ISRY/dz12P6Il7Y7kdSrn&#43;57C3I8pFPr8=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.b4e1e11d4bb5d1317b6295df23dd87f3b6955aed7754eed19998fa1b6576efe7.js" integrity="sha256-tOHhHUu10TF7YpXfI92H87aVWu13VO7RmZj6G2V27&#43;c=" crossorigin="anonymous"></script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-2S7Y04C26P"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-2S7Y04C26P');
+        }
+      </script>
+
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-resources">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Devising Research</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/assignments/" class="">
+      Assignments</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/policy/" class="">
+      Policy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/resources/" class="">
+      Research Resources</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/resources/finding-data/" class="active">
+      Finding Data</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/resources/getting-started/" class="">
+      Getting Started</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/resources/reading-literature/" class="">
+      Reading the Literature</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/resources/juniorseminar_resources/" class="">
+      Research Resources</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/resources/research-workflow/" class="">
+      Research Workflow</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/resources/teaching/" class="">
+      Teaching Research Courses</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/resources/working-with-ideas/" class="">
+      Working with Ideas</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/resources/writing/" class="">
+      Writing Resources</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/schedule/" class="">
+      Schedule</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/search/" class="">
+      Search</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Finding Data</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#finding-usable-data-for-technical-research">Finding usable data for technical research</a>
+      <ul>
+        <li><a href="#common-data-sources">Common data sources</a></li>
+        <li><a href="#what-to-check-before-using-a-dataset">What to check before using a dataset</a></li>
+        <li><a href="#practical-steps">Practical steps</a></li>
+        <li><a href="#if-the-data-is-not-available">If the data is not available</a></li>
+        <li><a href="#data-hygiene-checklist">Data hygiene checklist</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h2 id="finding-usable-data-for-technical-research">Finding usable data for technical research<a class="anchor" href="#finding-usable-data-for-technical-research">#</a></h2>
+<p>Data work is a major part of computer science research. This guide helps you locate and evaluate data quickly.</p>
+<h3 id="common-data-sources">Common data sources<a class="anchor" href="#common-data-sources">#</a></h3>
+<ul>
+<li>Government and public agencies</li>
+<li>Research group releases and project websites</li>
+<li>Open repositories and data portals</li>
+<li>APIs and platform data exports</li>
+</ul>
+<h3 id="what-to-check-before-using-a-dataset">What to check before using a dataset<a class="anchor" href="#what-to-check-before-using-a-dataset">#</a></h3>
+<ul>
+<li>License: can you use it for academic work?</li>
+<li>Format: CSV, JSON, SQL dump, or raw text?</li>
+<li>Documentation: is there a data dictionary?</li>
+<li>Coverage: does it match your time range and scope?</li>
+<li>Bias: who created it and what might be missing?</li>
+</ul>
+<h3 id="practical-steps">Practical steps<a class="anchor" href="#practical-steps">#</a></h3>
+<ol>
+<li>Write 5 keywords about the data you need.</li>
+<li>Search for &ldquo;dataset&rdquo; plus each keyword.</li>
+<li>Check the data size and file format.</li>
+<li>Download a sample and inspect 20 rows.</li>
+<li>Record the source and citation details.</li>
+</ol>
+<h3 id="if-the-data-is-not-available">If the data is not available<a class="anchor" href="#if-the-data-is-not-available">#</a></h3>
+<ul>
+<li>Create a small dataset through scraping, logs, or experiments.</li>
+<li>Use a related dataset and justify the substitution.</li>
+<li>Reframe the question to fit accessible data.</li>
+</ul>
+<h3 id="data-hygiene-checklist">Data hygiene checklist<a class="anchor" href="#data-hygiene-checklist">#</a></h3>
+<ul>
+<li>The data is versioned and stored safely.</li>
+<li>You can reproduce how it was collected.</li>
+<li>You have a clear plan for cleaning and filtering.</li>
+<li>You are aware of privacy or ethics constraints.</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+
+
+  
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/resources/" class="flex align-center">
+        <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Research Resources</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/resources/getting-started/" class="flex align-center">
+        <span>Getting Started</span>
+        <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
+
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#finding-usable-data-for-technical-research">Finding usable data for technical research</a>
+      <ul>
+        <li><a href="#common-data-sources">Common data sources</a></li>
+        <li><a href="#what-to-check-before-using-a-dataset">What to check before using a dataset</a></li>
+        <li><a href="#practical-steps">Practical steps</a></li>
+        <li><a href="#if-the-data-is-not-available">If the data is not available</a></li>
+        <li><a href="#data-hygiene-checklist">Data hygiene checklist</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
