@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research Resources on Devising Research</title>
+    <title>Resources on Devising Research</title>
     <link>http://localhost:1313/resources/</link>
-    <description>Recent content in Research Resources on Devising Research</description>
+    <description>Recent content in Resources on Devising Research</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
     <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />

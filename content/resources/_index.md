@@ -1,5 +1,5 @@
 ---
-title: "Research Resources"
+title: "Resources"
 ---
 
 ![logo](/resources/images/fc1_300.png)
